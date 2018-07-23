@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FFCategoryKit2_Example' do
+  pod 'FFCategoryKit2', :path => '../'
+
+  target 'FFCategoryKit2_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
