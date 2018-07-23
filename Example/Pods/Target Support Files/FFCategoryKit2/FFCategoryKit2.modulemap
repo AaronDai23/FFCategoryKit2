@@ -1,0 +1,6 @@
+framework module FFCategoryKit2 {
+  umbrella header "FFCategoryKit2-umbrella.h"
+
+  export *
+  module * { export * }
+}

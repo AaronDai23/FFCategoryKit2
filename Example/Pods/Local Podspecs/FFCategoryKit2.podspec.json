@@ -1,0 +1,22 @@
+{
+  "name": "FFCategoryKit2",
+  "version": "0.1.0",
+  "summary": "A short description of FFCategoryKit2.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/AaronDai23/FFCategoryKit2",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AaronDai23": "13794872595@163.com"
+  },
+  "source": {
+    "git": "https://github.com/AaronDai23/FFCategoryKit2.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FFCategoryKit2/Classes/**/*"
+}

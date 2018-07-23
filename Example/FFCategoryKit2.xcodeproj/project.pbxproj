@@ -63,10 +63,10 @@
 		802D8E795C03E559DE0F09E4 /* Pods-FFCategoryKit2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFCategoryKit2_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFCategoryKit2_Example/Pods-FFCategoryKit2_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95318F3ACDDF6C4722A0DADC /* Pods-FFCategoryKit2_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFCategoryKit2_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFCategoryKit2_Example/Pods-FFCategoryKit2_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C3D365D1673AED95FB972790 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		CC47BDC8A0201AC718A3D7C1 /* FFCategoryKit2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FFCategoryKit2.podspec; path = ../FFCategoryKit2.podspec; sourceTree = "<group>"; };
+		C3D365D1673AED95FB972790 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CC47BDC8A0201AC718A3D7C1 /* FFCategoryKit2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FFCategoryKit2.podspec; path = ../FFCategoryKit2.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E1792B2F013BC9E4E36FE947 /* Pods_FFCategoryKit2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFCategoryKit2_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB95E6EC5432CA8BA28357AD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EB95E6EC5432CA8BA28357AD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = AaronDai23;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = VTR7MVV5PF;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -485,6 +488,7 @@
 			baseConfigurationReference = 95318F3ACDDF6C4722A0DADC /* Pods-FFCategoryKit2_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VTR7MVV5PF;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FFCategoryKit2/FFCategoryKit2-Prefix.pch";
 				INFOPLIST_FILE = "FFCategoryKit2/FFCategoryKit2-Info.plist";
@@ -500,6 +504,7 @@
 			baseConfigurationReference = 802D8E795C03E559DE0F09E4 /* Pods-FFCategoryKit2_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VTR7MVV5PF;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FFCategoryKit2/FFCategoryKit2-Prefix.pch";
 				INFOPLIST_FILE = "FFCategoryKit2/FFCategoryKit2-Info.plist";
